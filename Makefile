@@ -3,3 +3,6 @@ build:
 
 run: build
 	bin/go-blockchain
+
+printchain: build
+	bin/go-blockchain printchain

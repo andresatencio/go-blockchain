@@ -18,9 +18,9 @@ func main() {
 	// 	fmt.Println()
 	// }
 
-	bc := NewBlockchain()
-	defer bc.db.Close()
+	// bc := NewBlockchain()
+	// defer bc.db.Close()
 
-	cli := CLI{bc}
+	cli := CLI{}
 	cli.Run()
 }
